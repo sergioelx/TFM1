@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Menu principal{% endblock %}
+{% block content %}
+
+<div class="col-md-6 mx-auto">
+    <form class="p-3 bg-light border-1 border primary shadow-lg" method="post" id="formulariol">
+        <div class="center">
+            <h1>¡Bienvenido a OntoStats!</h1>
+            <p>Introduzca la url de la ontología a analizar.</p>
+        </div>
+        <div class="mb-3">
+            <label for="url" class="form-label" >URL</label>
+            <input type="text" class="form-control" id="purl" name="purl" placeholder="http://purl.obolibrary.org/obo/ejemplo.owl">
+        </div>
+        <div class="center">
+            <button type="submit" class="btn btn-primary">Obtener estadísticas</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

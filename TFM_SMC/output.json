@@ -1,0 +1,39 @@
+{
+  "idOntology" : "http://purl.obolibrary.org/obo/po.owl",
+  "ontologyTitle" : "Plant Ontology",
+  "ontologyMetrics" : {
+    "axiomCount" : 24295,
+    "declarationAxiomCount" : 2917,
+    "classCount" : 1999,
+    "objectPropertyCount" : 13,
+    "dataPropertyCount" : 0,
+    "individualCount" : 0,
+    "annotationPropertyCount" : 53,
+    "weight" : 5.164551734924316
+  },
+  "imports" : [ {
+    "idOntology" : "http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 66,
+      "declarationAxiomCount" : 10,
+      "classCount" : 11,
+      "objectPropertyCount" : 0,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 4,
+      "weight" : 0.018890380859375
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/po/imports/ro_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 852,
+      "declarationAxiomCount" : 381,
+      "classCount" : 21,
+      "objectPropertyCount" : 123,
+      "dataPropertyCount" : 0,
+      "individualCount" : 9,
+      "annotationPropertyCount" : 11,
+      "weight" : 0.19250202178955078
+    }
+  } ]
+}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Estadísticas generadas{% endblock %}
+{% block content %}
+
+<div class="container">
+    <h1>Informe estadístico de {{ ontology_title }}</h1>
+    <p>¡Haz clic en el botón para descargar el JSON!</p>
+    <a href="{{ url_for('gen.download_json') }}"  class="btn btn-primary">Descargar JSON</a>
+    <a href="{{ url_for('gen.enrich_ontology') }}"  class="btn btn-primary">Enriquecer ontología</a>
+    <p>URL de la ontología: {{ purl }}</p>
+
+    <h1>Ontology Hierarchy with Import Information</h1>
+    <div id="graph">
+        {{ graph_html|safe }}
+    </div>
+
+    <div>
+        <h2>Ontology Metrics</h2>
+        {% for metric, graph_html in graph_html2.items() %}
+            <div>
+                <h3>{{ metric }}</h3>
+                {{ graph_html|safe }}
+            </div>
+        {% endfor %}
+    </div>
+
+    {% if comparison_graph_html %}
+    <div>
+        <h2>Comparison Charts</h2>
+        {% for metric, graph_html in comparison_graph_html.items() %}
+            <div>
+                <h3>{{ metric }}</h3>
+                {{ graph_html|safe }}
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if comparison_node_graph_html %}
+    <div>
+        <h2>Ontology Graph with AxiomasFinales_star Comparison</h2>
+        <div id="comparison-graph">
+            {{ comparison_node_graph_html|safe }}
+        </div>
+    </div>
+    {% endif %}
+  
+</div>
+
+{% endblock %}

@@ -1,0 +1,120 @@
+Prefix(:=<http://purl.obolibrary.org/obo/ncbitaxon.owl_module#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/ncbitaxon.owl_module>
+
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_131221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3193>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_3398>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_35493>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_58023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_58024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_78536>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_131221> (Streptophytina)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://purl.obolibrary.org/obo/NCBITaxon_subphylum>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_131221> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_131221> "charophyte/embryophyte group"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_131221> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_131221> "Charophyta/Embryophyta group"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_131221> "Streptophytina"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://purl.obolibrary.org/obo/NCBITaxon_35493>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3193> (Embryophyta)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "higher plants"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "land plants"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "plants"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3193> "land plants"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3193> "Embryophyta"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://purl.obolibrary.org/obo/NCBITaxon_131221>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_33090> (Viridiplantae)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "PMID:16248873"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "PMID:30257078"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chlorophyta/Embryophyta group"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "chlorophyte/embryophyte group"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "green plants"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chlorobionta"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Chloroplastida"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_33090> "green plants"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_33090> "Viridiplantae"^^xsd:string)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_3398> (Magnoliopsida)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://purl.obolibrary.org/obo/NCBITaxon_class>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "PMID:25249442"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "angiosperms"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "flowering plants"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "Angiospermae"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "Magnoliophyta"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_3398> "flowering plants"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_3398> "Magnoliopsida"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://purl.obolibrary.org/obo/NCBITaxon_58024>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_35493> (Streptophyta)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://purl.obolibrary.org/obo/NCBITaxon_phylum>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_35493> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_35493> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_35493> "Streptophyta"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://purl.obolibrary.org/obo/NCBITaxon_33090>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_58023> (Tracheophyta)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_58023> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_58023> "vascular plants"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_58023> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_58023> "vascular plants"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_58023> "Tracheophyta"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://purl.obolibrary.org/obo/NCBITaxon_3193>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_58024> (Spermatophyta)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_58024> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/OMO_0003003>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_58024> "seed plants"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_58024> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name>) <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_58024> "seed plants"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_58024> "Spermatophyta"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://purl.obolibrary.org/obo/NCBITaxon_78536>)
+
+# Class: <http://purl.obolibrary.org/obo/NCBITaxon_78536> (Euphyllophyta)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://purl.obolibrary.org/obo/NCBITaxon_clade>)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/NCBITaxon_78536> "GC_ID:1"^^xsd:string)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name>) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/NCBITaxon_78536> "euphyllophytes"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/NCBITaxon_78536> "ncbi_taxonomy"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCBITaxon_78536> "Euphyllophyta"^^xsd:string)
+SubClassOf(<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://purl.obolibrary.org/obo/NCBITaxon_58023>)
+
+
+)

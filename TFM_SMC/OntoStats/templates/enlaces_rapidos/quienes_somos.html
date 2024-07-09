@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}Quienes somos{% endblock %}
+
+
+¡Gracias por utilizar EmoScan!
+{% block content %}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card my-5">
+            <div class="card-body">
+                <h1 class="card-title mb-4 text-center">Quienes somos</h1>
+                <p>
+                    ¡Hola! Mi nombre es Sergio Muñoz Cano y soy el creador de OntoStats. 
+                    Soy un estudiante del Máster Universitario en Estadística Computacional y 
+                    Ciencia de Datos para la Toma de Decisiones, apunto de terminar la carrera, 
+                    realizando el TFM.
+                </p>
+                <p>
+                    Mi TFM consiste en el desarrollo de una aplicación web capaz de generar estadísticas
+                    sobre ontologías----                  
+                </p>
+                <p>
+                    -----
+                </p>
+                <p>
+                    Si tienes alguna pregunta o comentario sobre OntoStats, no dudes en ponerte en contacto 
+                    conmigo a través de: <a href="{{ url_for('contacto')}}">Contacto</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

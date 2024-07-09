@@ -1,0 +1,135 @@
+{
+  "idOntology" : "http://purl.obolibrary.org/obo/to.owl",
+  "ontologyTitle" : "Plant Trait Ontology",
+  "ontologyMetrics" : {
+    "axiomCount" : 19243,
+    "declarationAxiomCount" : 6620,
+    "classCount" : 5290,
+    "objectPropertyCount" : 16,
+    "dataPropertyCount" : 0,
+    "individualCount" : 0,
+    "annotationPropertyCount" : 35,
+    "weight" : 3.0352697372436523
+  },
+  "imports" : [ {
+    "idOntology" : "http://purl.obolibrary.org/obo/po.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 24295,
+      "declarationAxiomCount" : 2917,
+      "classCount" : 1999,
+      "objectPropertyCount" : 13,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 53,
+      "weight" : 5.164551734924316
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 66,
+      "declarationAxiomCount" : 10,
+      "classCount" : 11,
+      "objectPropertyCount" : 0,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 4,
+      "weight" : 0.018890380859375
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/po/imports/ro_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 852,
+      "declarationAxiomCount" : 381,
+      "classCount" : 21,
+      "objectPropertyCount" : 123,
+      "dataPropertyCount" : 0,
+      "individualCount" : 9,
+      "annotationPropertyCount" : 11,
+      "weight" : 0.19250202178955078
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/chebi_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 7518,
+      "declarationAxiomCount" : 1848,
+      "classCount" : 890,
+      "objectPropertyCount" : 9,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 6,
+      "weight" : 1.962423324584961
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/envo_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 201,
+      "declarationAxiomCount" : 66,
+      "classCount" : 28,
+      "objectPropertyCount" : 11,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 10,
+      "weight" : 0.033682823181152344
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/go_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 1869,
+      "declarationAxiomCount" : 591,
+      "classCount" : 239,
+      "objectPropertyCount" : 4,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 7,
+      "weight" : 0.4504375457763672
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 411,
+      "declarationAxiomCount" : 53,
+      "classCount" : 54,
+      "objectPropertyCount" : 0,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 8,
+      "weight" : 0.055212974548339844
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/pato_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 683,
+      "declarationAxiomCount" : 160,
+      "classCount" : 132,
+      "objectPropertyCount" : 6,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 7,
+      "weight" : 0.12846755981445312
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/imports/peco_import.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 3940,
+      "declarationAxiomCount" : 1140,
+      "classCount" : 539,
+      "objectPropertyCount" : 113,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 14,
+      "weight" : 0.9178791046142578
+    }
+  }, {
+    "idOntology" : "http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl",
+    "ontologyMetrics" : {
+      "axiomCount" : 1869,
+      "declarationAxiomCount" : 744,
+      "classCount" : 1120,
+      "objectPropertyCount" : 5,
+      "dataPropertyCount" : 0,
+      "individualCount" : 0,
+      "annotationPropertyCount" : 0,
+      "weight" : 0.693603515625
+    }
+  } ]
+}

@@ -1,0 +1,20 @@
+Iniciando ejecucion
+Se ha establecido 5 horas como tiempo limite para extraer cada ontología
+MapeoGenerado
+Leyendo: <http://purl.obolibrary.org/obo/bfo.owl>
+Leido: <http://purl.obolibrary.org/obo/bfo.owl>
+La estrategia nested ha tardado en extraer los axiomas de <http://purl.obolibrary.org/obo/bfo.owl> 0 segundos.
+Se han extraido 95 axiomas y 5 entidades con nested de <http://purl.obolibrary.org/obo/bfo.owl>
+Leyendo: <http://purl.obolibrary.org/obo/ncbitaxon.owl>
+Leido: <http://purl.obolibrary.org/obo/ncbitaxon.owl>
+La estrategia nested ha tardado en extraer los axiomas de <http://purl.obolibrary.org/obo/ncbitaxon.owl> 83 segundos.
+Se han extraido 72 axiomas y 8 entidades con nested de <http://purl.obolibrary.org/obo/ncbitaxon.owl>
+Leyendo: <http://purl.obolibrary.org/obo/uberon.owl>
+Leido: <http://purl.obolibrary.org/obo/uberon.owl>
+La estrategia nested ha tardado en extraer los axiomas de <http://purl.obolibrary.org/obo/uberon.owl> 8 segundos.
+Se han extraido 218 axiomas y 9 entidades con nested de <http://purl.obolibrary.org/obo/uberon.owl>
+Para completar la ontologia la estrategia star ha introducido 373 axiomas.
+La estrategia star ha tenido un tiempo acumulado de: 92 segundos.
+http://purl.obolibrary.org/obo/uberon.owl (origen: http://purl.obolibrary.org/obo/UBERON)
+http://purl.obolibrary.org/obo/ncbitaxon.owl (origen: http://purl.obolibrary.org/obo/NCBITaxon)
+http://purl.obolibrary.org/obo/bfo.owl (origen: http://purl.obolibrary.org/obo/BFO)
